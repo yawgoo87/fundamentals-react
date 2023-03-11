@@ -1,0 +1,14 @@
+.tags {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tags *{
+    background-color: rgb(198, 198, 198);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    color: white;
+    padding: 2px;
+    border-radius: 2px;
+    margin: 2px;
+}
