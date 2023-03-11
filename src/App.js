@@ -3,8 +3,8 @@ import './App.css';
 import Tags from "./components/UI/Tags/Tags";
 import Counter from './components/Counter';
 import Input from './components/Input';
-import ClassCounter from './components/ClassCounter';
-import PostItem from "./components/PostItem";
+// import ClassCounter from './components/ClassCounter';
+// import PostItem from "./components/PostItem";
 import PostList from "./components/PostList";
 import Form from "./components/Form";
 
@@ -34,7 +34,7 @@ function App() {
       {/* Part III */}
       <Form create={createPost} post_id={posts.length+1}/>
       {
-        posts.length == 0
+        posts.length === 0
           ? <div className="empty"><p>There is no post yet.<br/>Try to create one in form above👆</p></div>
           : <PostList posts={posts} title={'Posts'}/>
       }
