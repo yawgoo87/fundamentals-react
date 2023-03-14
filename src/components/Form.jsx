@@ -19,7 +19,7 @@ const Form = ({create, post_id}) => {
     }
 
     return(
-        <div class="form">
+        <div className="form">
             <div className="description"><p>Post creating form. Put name and description of the post and press Enter👉</p></div>
             <form>
                 {/* Управляемый компонент */}

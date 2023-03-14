@@ -1,0 +1,38 @@
+.drop_down_wrapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drop_down_wrapp span{
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+.drop_down_wrapp select{
+    width: 200px;
+    border-radius: 4px;
+    color: #212529;
+    padding: 6px 12px;
+    border: 1px solid #ced4da;
+    background-color: #fff;
+    background-clip: padding-box;
+}
+
+.drop_down_wrapp select option{
+    width: 200px;
+    border-radius: 4px;
+    color: #212529;
+    padding: 6px 12px;
+    border: 1px solid #ced4da;
+    background-color: #fff;
+    background-clip: padding-box;
+}
+
+.drop_down_wrapp select:hover{
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}

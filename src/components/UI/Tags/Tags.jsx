@@ -6,7 +6,7 @@ const Tags = (props) => {
         <div className={classes.tags}>
             {
                 props.tags.map(item => 
-                    <span>{item}</span>
+                    <span key={props.tags.indexOf(item)}>{item}</span>
                 )
             }
         </div>

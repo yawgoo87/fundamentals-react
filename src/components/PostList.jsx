@@ -9,7 +9,7 @@ const PostList = (props) => {
             <div className="plate-collection">
                 {
                     props.posts.map(post => 
-                        <PostItem post={post} key={post.id}/>
+                        <PostItem post={post} deletePost={props.deletePost} key={post.id}/>
                     ) 
                 }
                 
