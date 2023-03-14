@@ -26,7 +26,7 @@ function App() {
   }
 
   const deletePost = (_id) => {
-    setPosts(posts.filter(post => post.id != _id))
+    setPosts(posts.filter(post => post.id !== _id))
   }
 
   // sort - sort method from drop-down list
