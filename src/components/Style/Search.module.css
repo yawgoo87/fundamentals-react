@@ -1,0 +1,10 @@
+.search_wrapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.search_text{
+    margin-right: 10px;
+}
